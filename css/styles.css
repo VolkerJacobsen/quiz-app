@@ -75,13 +75,13 @@ footer {
 .footer_nav {
   display: flex;
   justify-content: space-between;
-  _flex-grow: 1;
+  flex-grow: 1;
   width: 100%;
 }
 
 a {
-  _justify-content: center;
-  _width: 200px;
+  justify-content: center;
+  width: 200px;
   flex-grow: 1;
 }
 
@@ -100,19 +100,23 @@ section .profile-image {
 }
 
 section .profile-name {
-  position: absolute;
+  position: relative;
   top: 40px;
   right: 40px;
 }
 
-section .about {
+section.counter {
+  position: relative;
+}
+.counter-questions {
+  position: absolute;
+  left: 10px;
+}
+
+.counter-bookmarks {
   position: relative;
 }
 
-h2 .about-me {
-  position: absolute;
-  left: 20px;
-}
 .switch {
   position: relative;
   display: inline-block;
