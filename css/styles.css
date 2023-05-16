@@ -48,7 +48,7 @@ div {
   position: absolute;
   width: 25px;
   right: 0;
-  top: -5px;
+  top: -10px;
 }
 
 button {
@@ -74,14 +74,15 @@ footer {
 
 .footer_nav {
   display: flex;
-  justify-content: center;
-  flex-grow: 1;
+  justify-content: space-between;
+  _flex-grow: 1;
+  width: 100%;
 }
 
 a {
-  display: flex;
-  justify-content: center;
-  width: 200px;
+  _justify-content: center;
+  _width: 200px;
+  flex-grow: 1;
 }
 
 .logo {
@@ -93,10 +94,25 @@ a {
   background-color: darkgray;
 }
 
-.profile-image {
+section .profile-image {
   border-radius: 50%;
+  height: 150px;
 }
 
+section .profile-name {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+section .about {
+  position: relative;
+}
+
+h2 .about-me {
+  position: absolute;
+  left: 20px;
+}
 .switch {
   position: relative;
   display: inline-block;
