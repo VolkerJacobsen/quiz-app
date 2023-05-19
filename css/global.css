@@ -1,6 +1,6 @@
-@import ".css/section.css";
-@import ".css/button.css";
-@import ".css/footer.css";
+@import "/section.css";
+@import "/button.css";
+@import "/footer.css";
 
 * {
   box-sizing: border-box;
