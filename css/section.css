@@ -1,0 +1,36 @@
+section {
+  border: solid 2px black;
+  background-color: #669999;
+  box-shadow: 5px 5px 5px #a7763b;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+section.index-page,
+section.bookmark-page {
+  position: relative;
+}
+
+section .profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tags {
+  margin: 10px;
+  padding: 5px;
+  border: solid 2px black;
+  border-radius: 5px;
+  background-color: #d46a6a;
+  color: white;
+  font-size: 0.8em;
+}
+
+section .bookmark {
+  position: absolute;
+  width: 25px;
+  right: 0;
+  top: -10px;
+}
