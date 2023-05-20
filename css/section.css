@@ -7,15 +7,20 @@ section {
   margin: 10px;
 }
 
-section.index-page,
-section.bookmark-page {
+.section__index,
+.section__bookmark {
   position: relative;
 }
 
-section .profile {
+.section__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.tag__container,
+.dark__mode {
+  display: flex;
 }
 
 .tags {
@@ -28,9 +33,15 @@ section .profile {
   font-size: 0.8em;
 }
 
-section .bookmark {
+.bookmark__image {
   position: absolute;
   width: 25px;
   right: 0;
   top: -10px;
+}
+
+.profile__image {
+  border-radius: 50%;
+  border: solid 2px;
+  height: 150px;
 }

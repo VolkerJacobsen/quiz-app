@@ -4,7 +4,7 @@ footer {
   bottom: 0;
 }
 
-.footer_nav {
+.footer__nav {
   display: flex;
   flex-grow: 1;
   width: 100%;
@@ -17,7 +17,7 @@ footer {
   padding: 10px;
 }
 
-footer .icons {
+.footer__icons {
   width: 40px;
   height: 40px;
 }
