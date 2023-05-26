@@ -1,0 +1,27 @@
+footer {
+  background-color: var(--secondary-color);
+  position: sticky;
+  bottom: 0;
+}
+
+.footer__nav {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer__icons {
+  width: 40px;
+  height: 40px;
+}
+
+.navigation--active {
+  background-color: #0d4d4d;
+}

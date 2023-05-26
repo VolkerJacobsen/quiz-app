@@ -4,38 +4,57 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizz App</title>
-    <link rel="Stylesheet" href="./css/styles.css" />
+    <link rel="Stylesheet" href="./css/global.css" />
+    <script src="./javascript/index.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Quiz App</h1>
     </header>
-    <main>
-      <section class="frage1">
-        <h2 class="frage">What property flips the axes in flexbox?</h2>
-        <button type="button">Show Answer</button>
-        <img class="bookmark" src="images/bookmark-icon-gemarked.png" />
-        <div>
+    <main class="main-content">
+      <section class="section__bookmark --question1">
+        <h2 class="frage1">What property flips the axes in flexbox?</h2>
+        <button class="button button--show-answer" type="button">
+          Show Answer
+        </button>
+        <img class="bookmark__image" src="images/bookmark-icon-gemarked.png" />
+        <div class="tag__container">
           <p class="tags">#html</p>
           <p class="tags">#flexbox</p>
           <p class="tags">#css</p>
         </div>
       </section>
-      <section class="frage2">
+      <section class="section__bookmark --question2">
         <h2 class="frage2">Lorem Impsum dolor sit?</h2>
-        <button class="button" type="button">Show Answer</button>
-        <img class="bookmark" src="images/bookmark-icon-gemarked.png" />
-        <div>
+        <button class="button button--show-answer" type="button">
+          Show Answer
+        </button>
+        <img class="bookmark__image" src="images/bookmark-icon-gemarked.png" />
+        <div class="tag__container">
           <p class="tags">#html</p>
           <p class="tags">#flexbox</p>
           <p class="tags">#css</p>
         </div>
       </section>
-      <section class="frage3">
+      <section class="section__bookmark --question3">
         <h2 class="frage">Ipsum Lorum datum rif?</h2>
-        <button type="button">Show Answer</button>
-        <img class="bookmark" src="images/bookmark-icon-gemarked.png" />
-        <div>
+        <button class="button button--show-answer" type="button">
+          Show Answer
+        </button>
+        <img class="bookmark__image" src="images/bookmark-icon-gemarked.png" />
+        <div class="tag__container">
+          <p class="tags">#html</p>
+          <p class="tags">#flexbox</p>
+          <p class="tags">#css</p>
+        </div>
+      </section>
+      <section class="section__bookmark --question4">
+        <h2 class="frage">Lorum Ipsum darum lif?</h2>
+        <button class="button button--show-answer" type="button">
+          Show Answer
+        </button>
+        <img class="bookmark__image" src="images/bookmark-icon-gemarked.png" />
+        <div class="tag__container">
           <p class="tags">#html</p>
           <p class="tags">#flexbox</p>
           <p class="tags">#css</p>
@@ -43,15 +62,21 @@
       </section>
     </main>
     <footer>
-      <nav class="footer_nav">
-        <a class="icon" href="index.html"
-          ><img class="logo" src="images/home_icon.png" alt="letter"
+      <nav class="footer__nav">
+        <a class="navigation" href="index.html"
+          ><img class="footer__icons" src="images/home_icon.png" alt="letter"
         /></a>
-        <a class="active"
-          ><img class="logo" src="images/bookmark-icon.png" alt="bookmark"
+        <a class="navigation navigation--active"
+          ><img
+            class="footer__icons"
+            src="images/bookmark-icon.png"
+            alt="bookmark"
         /></a>
-        <a class="icon" href="profilepage.html"
-          ><img class="logo" src="images/profile-icon.png" alt="profile"
+        <a class="navigation" href="profilepage.html"
+          ><img
+            class="footer__icons"
+            src="images/profile-icon.png"
+            alt="profile"
         /></a>
       </nav>
     </footer>
